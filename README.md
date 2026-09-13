@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 32 | 11 |
+| 47 | 13 |
 
 ---
 
@@ -14,14 +14,16 @@
 
 - [Uncategorized](#uncategorized) (4)
 - [binary search](#binary-search) (1)
-- [brute force](#brute-force) (7)
+- [brute force](#brute-force) (8)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (1)
+- [constructive algorithms](#constructive-algorithms) (2)
 - [dp](#dp) (1)
-- [greedy](#greedy) (5)
-- [implementation](#implementation) (18)
-- [math](#math) (11)
-- [strings](#strings) (6)
+- [games](#games) (1)
+- [greedy](#greedy) (6)
+- [implementation](#implementation) (28)
+- [math](#math) (17)
+- [number theory](#number-theory) (2)
+- [strings](#strings) (7)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -49,6 +51,7 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
+| 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 2004B | [Game with Doors](https://codeforces.com/contest/2004/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2004/B%20-%20Game%20with%20Doors/solution.cpp) |
 | 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.cpp) |
 | 2010B | [Three Brothers](https://codeforces.com/contest/2010/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2010/B%20-%20Three%20Brothers/solution.cpp) |
@@ -64,12 +67,19 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2013A | [Zhan's Blender](https://codeforces.com/contest/2013/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2013/A%20-%20Zhan's%20Blender/solution.cpp) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2025B | [Binomial Coefficients, Kind Of](https://codeforces.com/contest/2025/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2025/B%20-%20Binomial%20Coefficients%2C%20Kind%20Of/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1373B | [01 Game](https://codeforces.com/contest/1373/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1373/B%20-%2001%20Game/solution.cpp) |
 
 ### greedy
 
@@ -78,6 +88,7 @@
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 2004B | [Game with Doors](https://codeforces.com/contest/2004/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2004/B%20-%20Game%20with%20Doors/solution.cpp) |
+| 2024A | [Profitable Interest Rate](https://codeforces.com/contest/2024/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2024/A%20-%20Profitable%20Interest%20Rate/solution.cpp) |
 | 2025A | [Two Screens](https://codeforces.com/contest/2025/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2025/A%20-%20Two%20Screens/solution.cpp) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 
@@ -87,22 +98,32 @@
 |---|---------|------------|----------|
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
+| 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.cpp) |
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.cpp) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
+| 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/136/A%20-%20Presents/solution.cpp) |
+| 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
 | 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
+| 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
+| 228A | [Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/228/A%20-%20Is%20your%20horseshoe%20on%20the%20other%20hoof%3F/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
 | 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/344/A%20-%20Magnets/solution.cpp) |
+| 427A | [Police Recruits](https://codeforces.com/contest/427/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/427/A%20-%20Police%20Recruits/solution.cpp) |
 | 467A | [George and Accommodation](https://codeforces.com/contest/467/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/467/A%20-%20George%20and%20Accommodation/solution.cpp) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
+| 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
+| 1742A | [Sum](https://codeforces.com/contest/1742/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1742/A%20-%20Sum/solution.cpp) |
 | 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.cpp) |
 | 2010B | [Three Brothers](https://codeforces.com/contest/2010/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2010/B%20-%20Three%20Brothers/solution.cpp) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.cpp) |
 
 ### math
 
@@ -111,14 +132,27 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
+| 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/617/A%20-%20Elephant/solution.cpp) |
+| 1335A | [Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1335/A%20-%20Candies%20and%20Two%20Sisters/solution.cpp) |
+| 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
+| 1945B | [Fireworks](https://codeforces.com/contest/1945/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1945/B%20-%20Fireworks/solution.cpp) |
 | 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.cpp) |
 | 2010B | [Three Brothers](https://codeforces.com/contest/2010/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2010/B%20-%20Three%20Brothers/solution.cpp) |
 | 2013A | [Zhan's Blender](https://codeforces.com/contest/2013/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2013/A%20-%20Zhan's%20Blender/solution.cpp) |
+| 2024A | [Profitable Interest Rate](https://codeforces.com/contest/2024/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2024/A%20-%20Profitable%20Interest%20Rate/solution.cpp) |
 | 2025B | [Binomial Coefficients, Kind Of](https://codeforces.com/contest/2025/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2025/B%20-%20Binomial%20Coefficients%2C%20Kind%20Of/solution.cpp) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.cpp) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
+| 1945B | [Fireworks](https://codeforces.com/contest/1945/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1945/B%20-%20Fireworks/solution.cpp) |
 
 ### strings
 
@@ -127,6 +161,7 @@
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.cpp) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 2025A | [Two Screens](https://codeforces.com/contest/2025/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2025/A%20-%20Two%20Screens/solution.cpp) |
