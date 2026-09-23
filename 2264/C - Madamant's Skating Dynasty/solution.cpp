@@ -60,12 +60,6 @@ inline void solve() {
         cout<<0<<endl;
         return;
     }
-    for(int i=0;i<n-1;i++){
-        if(a[i]==a[i+1]){
-            cout<<-1<<endl;
-            return;
-        }
-    }
     vll suff(n+1,0);
     for(int i=n-1;i>=0;i--){
         suff[i]=(suff[i+1]+a[i])%MOD;
