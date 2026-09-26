@@ -46,9 +46,9 @@ inline void solve() {
     loop cin>>a[i];
     ll maxi= *max_element(all(a));
     ll mini= *min_element(all(a));
-    vll ans(33);
+    vll ans(11);
     ans[0]=maxi-mini;
-    for(int k=1;k<32;k++){
+    for(int k=1;k<10;k++){
     vll v;
         loop{
             for (int j=i+1;j<n;j++) {
@@ -63,7 +63,7 @@ inline void solve() {
     while(q--){
         int x;
         cin>>x;
-        if(x>32) cout<<0<<endl;
+        if(x>10) cout<<0<<endl;
         else cout<<ans[x]<<endl;
     }
 }
