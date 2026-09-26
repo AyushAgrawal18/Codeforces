@@ -49,16 +49,26 @@ inline void solve() {
     vll ans(11);
     ans[0]=maxi-mini;
     for(int k=1;k<10;k++){
-    vll v;
-        loop{
-            for (int j=i+1;j<n;j++) {
-                v.pb(a[i]^a[j]);
+        priority_queue<ll> pq;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                ll x = a[i] ^ a[j];
+                if ((int)pq.size() < n) {
+                    pq.push(x);
+                } 
+                else if (x < pq.top()) {
+                    pq.pop();
+                    pq.push(x);
+                }
             }
         }
-        sort(all(v));
-        v.resize(n);
-        ans[k]=v[n-1]-v[0];
-        a=v;
+        a.clear();
+        while (!pq.empty()) {
+            a.push_back(pq.top());
+            pq.pop();
+        }
+        sort(all(a));
+        ans[k]=a[n-1]-a[0];
     }
     while(q--){
         int x;
