@@ -56,7 +56,7 @@ inline void solve() {
     loop cin>>a[i];
     map<ll,ll> freq;
     loop {
-        for(int j=0;j<20;j++){
+        for(int j=0;j<15;j++){
             a[i]=sumSquare(a[i]);
         }
         freq[a[i]]++;
