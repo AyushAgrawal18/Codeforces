@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 99 | 18 |
+| 100 | 18 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (9)
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (17)
+- [brute force](#brute-force) (18)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (10)
 - [data structures](#data-structures) (3)
@@ -26,7 +26,7 @@
 - [greedy](#greedy) (25)
 - [implementation](#implementation) (50)
 - [math](#math) (44)
-- [number theory](#number-theory) (7)
+- [number theory](#number-theory) (8)
 - [sortings](#sortings) (11)
 - [strings](#strings) (8)
 - [two pointers](#two-pointers) (3)
@@ -78,6 +78,7 @@
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
+| 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
@@ -285,6 +286,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
