@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 106 | 18 |
+| 109 | 20 |
 
 ---
 
@@ -19,16 +19,18 @@
 - [brute force](#brute-force) (19)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (11)
-- [data structures](#data-structures) (4)
+- [data structures](#data-structures) (5)
+- [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (7)
 - [games](#games) (3)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (28)
+- [greedy](#greedy) (29)
 - [implementation](#implementation) (50)
-- [math](#math) (48)
+- [math](#math) (50)
 - [number theory](#number-theory) (11)
-- [sortings](#sortings) (11)
+- [sortings](#sortings) (13)
 - [strings](#strings) (8)
+- [trees](#trees) (1)
 - [two pointers](#two-pointers) (4)
 
 ---
@@ -127,7 +129,14 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
 | 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
+| 1915F | [Greetings](https://codeforces.com/contest/1915/problem/F) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1915/F%20-%20Greetings/solution.cpp) |
 | 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.cpp) |
+
+### divide and conquer
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1915F | [Greetings](https://codeforces.com/contest/1915/problem/F) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1915/F%20-%20Greetings/solution.cpp) |
 
 ### dp
 
@@ -163,6 +172,7 @@
 | 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/158/B%20-%20Taxi/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
 | 1837D | [Bracket Coloring](https://codeforces.com/contest/1837/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1837/D%20-%20Bracket%20Coloring/solution.cpp) |
@@ -261,12 +271,14 @@
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1624/B%20-%20Make%20AP/solution.cpp) |
 | 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1714E | [Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1714/E%20-%20Add%20Modulo%2010/solution.cpp) |
+| 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
 | 1856B | [Good Arrays](https://codeforces.com/contest/1856/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1856/B%20-%20Good%20Arrays/solution.cpp) |
+| 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 | 1872D | [Plus Minus Permutation](https://codeforces.com/contest/1872/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1872/D%20-%20Plus%20Minus%20Permutation/solution.cpp) |
 | 1881D | [Divide and Equalize](https://codeforces.com/contest/1881/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1881/D%20-%20Divide%20and%20Equalize/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
@@ -319,8 +331,10 @@
 | 1692G | [2^Sort](https://codeforces.com/contest/1692/problem/G) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1692/G%20-%202%5ESort/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 1915F | [Greetings](https://codeforces.com/contest/1915/problem/F) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1915/F%20-%20Greetings/solution.cpp) |
 | 1992B | [Angry Monk](https://codeforces.com/contest/1992/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1992/B%20-%20Angry%20Monk/solution.cpp) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.cpp) |
 | 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.cpp) |
@@ -340,6 +354,12 @@
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
 | 2025A | [Two Screens](https://codeforces.com/contest/2025/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2025/A%20-%20Two%20Screens/solution.cpp) |
+
+### trees
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 
 ### two pointers
 
