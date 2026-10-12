@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 117 | 20 |
+| 118 | 20 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (24)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (11)
+- [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (9)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (10)
@@ -26,7 +26,7 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (32)
 - [implementation](#implementation) (53)
-- [math](#math) (51)
+- [math](#math) (52)
 - [number theory](#number-theory) (12)
 - [sortings](#sortings) (15)
 - [strings](#strings) (9)
@@ -130,6 +130,7 @@
 | 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.cpp) |
 | 2035B | [Everyone Loves Tres](https://codeforces.com/contest/2035/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2035/B%20-%20Everyone%20Loves%20Tres/solution.cpp) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.cpp) |
+| 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.cpp) |
 
 ### data structures
 
@@ -330,6 +331,7 @@
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.cpp) |
 | 2269A | [SauSaGe Bank](https://codeforces.com/contest/2269/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2269/A%20-%20SauSaGe%20Bank/solution.cpp) |
+| 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.cpp) |
 
 ### number theory
 
