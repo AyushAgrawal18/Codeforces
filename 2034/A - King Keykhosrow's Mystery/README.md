@@ -1,0 +1,19 @@
+<h2><a href="https://codeforces.com/contest/2034/problem/A" target="_blank" rel="noopener noreferrer">2034A — King Keykhosrow's Mystery</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2034A](https://codeforces.com/contest/2034/problem/A) |
+
+## Topics
+`brute force` `chinese remainder theorem` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. King Keykhosrow's Mystery</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>There is a tale about the wise <a href="https://en.wikipedia.org/wiki/Kay_Khosrow">King Keykhosrow</a> who owned a grand treasury filled with treasures from across the Persian Empire. However, to prevent theft and ensure the safety of his wealth, King Keykhosrow's vault was sealed with a magical lock that could only be opened by solving a riddle.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/02ff1013de2c71e8f78fd7d74b43bd365dcc6a3b.webp" style="zoom: 60.0%;max-width: 100.0%;max-height: 100.0%;"> </center><p>The riddle involves two sacred numbers $$$a$$$ and $$$b$$$. To unlock the vault, the challenger must determine the smallest key number $$$m$$$ that satisfies two conditions: </p><ul> <li> $$$m$$$ must be greater than or equal to at least one of $$$a$$$ and $$$b$$$. </li><li> The remainder when $$$m$$$ is divided by $$$a$$$ must be equal to the remainder when $$$m$$$ is divided by $$$b$$$. </li></ul><p>Only by finding the smallest correct value of $$$m$$$ can one unlock the vault and access the legendary treasures!</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains an integer $$$t$$$ ($$$1 \leq t \leq 100$$$), the number of test cases.</p><p>Each test case consists of a single line containing two integers $$$a$$$ and $$$b$$$ ($$$1 \leq a, b \leq 1000$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print the smallest integer $$$m$$$ that satisfies the conditions above.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0018872597961694704" id="id007532682425552931" class="input-output-copier">Copy</div></div><pre id="id0018872597961694704"><div class="test-example-line test-example-line-even test-example-line-0">2</div><div class="test-example-line test-example-line-odd test-example-line-1">4 6</div><div class="test-example-line test-example-line-even test-example-line-2">472 896</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003265906208471363" id="id005686545828591082" class="input-output-copier">Copy</div></div><pre id="id003265906208471363">12
+52864
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, you can see that: </p><ul> <li> $$$4 \bmod 4 = 0$$$ but $$$4 \bmod 6 = 4$$$ </li><li> $$$5 \bmod 4 = 1$$$ but $$$5 \bmod 6 = 5$$$ </li><li> $$$6 \bmod 4 = 2$$$ but $$$6 \bmod 6 = 0$$$ </li><li> $$$7 \bmod 4 = 3$$$ but $$$7 \bmod 6 = 1$$$ </li><li> $$$8 \bmod 4 = 0$$$ but $$$8 \bmod 6 = 2$$$ </li><li> $$$9 \bmod 4 = 1$$$ but $$$9 \bmod 6 = 3$$$ </li><li> $$$10 \bmod 4 = 2$$$ but $$$10 \bmod 6 = 4$$$ </li><li> $$$11 \bmod 4 = 3$$$ but $$$11 \bmod 6 = 5$$$ </li></ul> so no integer less than $$$12$$$ satisfies the desired properties.</div>
