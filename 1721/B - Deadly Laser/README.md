@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/1721/problem/B" target="_blank" rel="noopener noreferrer">1721B — Deadly Laser</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1000 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1721B](https://codeforces.com/contest/1721/problem/B) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Deadly Laser</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>The robot is placed in the top left corner of a grid, consisting of $$$n$$$ rows and $$$m$$$ columns, in a cell $$$(1, 1)$$$.</p><p>In one step, it can move into a cell, adjacent by a side to the current one: </p><ul> <li> $$$(x, y) \rightarrow (x, y + 1)$$$; </li><li> $$$(x, y) \rightarrow (x + 1, y)$$$; </li><li> $$$(x, y) \rightarrow (x, y - 1)$$$; </li><li> $$$(x, y) \rightarrow (x - 1, y)$$$. </li></ul><p>The robot can't move outside the grid.</p><p>The cell $$$(s_x, s_y)$$$ contains a deadly laser. If the robot comes into some cell that has distance less than or equal to $$$d$$$ to the laser, it gets evaporated. The distance between two cells $$$(x_1, y_1)$$$ and $$$(x_2, y_2)$$$ is $$$|x_1 - x_2| + |y_1 - y_2|$$$.</p><p>Print the smallest number of steps that the robot can take to reach the cell $$$(n, m)$$$ without getting evaporated or moving outside the grid. If it's not possible to reach the cell $$$(n, m)$$$, print <span class="tex-font-style-tt">-1</span>.</p><p>The laser is neither in the starting cell, nor in the ending cell. The starting cell always has distance greater than $$$d$$$ to the laser.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of testcases.</p><p>The only line of each testcase contains five integers $$$n, m, s_x, s_y, d$$$ ($$$2 \le n, m \le 1000$$$; $$$1 \le s_x \le n$$$; $$$1 \le s_y \le m$$$; $$$0 \le d \le n + m$$$) — the size of the grid, the cell that contains the laser and the evaporating distance of the laser.</p><p>The laser is neither in the starting cell, nor in the ending cell ($$$(s_x, s_y) \neq (1, 1)$$$ and $$$(s_x, s_y) \neq (n, m)$$$). The starting cell $$$(1, 1)$$$ always has distance greater than $$$d$$$ to the laser ($$$|s_x - 1| + |s_y - 1|  \gt  d$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each testcase, print a single integer. If it's possible to reach the cell $$$(n, m)$$$ from $$$(1, 1)$$$ without getting evaporated or moving outside the grid, then print the smallest amount of steps it can take the robot to reach it. Otherwise, print <span class="tex-font-style-tt">-1</span>.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008746753345544318" id="id0040192780835776076" class="input-output-copier">Copy</div></div><pre id="id008746753345544318"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">2 3 1 3 0</div><div class="test-example-line test-example-line-even test-example-line-2">2 3 1 3 1</div><div class="test-example-line test-example-line-odd test-example-line-3">5 5 3 4 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0001999451765409299" id="id00946679622538342" class="input-output-copier">Copy</div></div><pre id="id0001999451765409299">3
+-1
+8
+</pre></div></div></div>
