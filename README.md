@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 345 | 31 |
+| 346 | 31 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (18)
-- [binary search](#binary-search) (36)
+- [binary search](#binary-search) (37)
 - [bitmasks](#bitmasks) (12)
 - [brute force](#brute-force) (68)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -32,9 +32,9 @@
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (3)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (140)
+- [greedy](#greedy) (141)
 - [implementation](#implementation) (111)
-- [math](#math) (144)
+- [math](#math) (145)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (33)
 - [schedules](#schedules) (2)
@@ -42,7 +42,7 @@
 - [strings](#strings) (18)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (3)
-- [two pointers](#two-pointers) (27)
+- [two pointers](#two-pointers) (28)
 
 ---
 
@@ -99,6 +99,7 @@
 | 1613C | [Poisoned Dagger](https://codeforces.com/contest/1613/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1613/C%20-%20Poisoned%20Dagger/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
 | 1878E | [Iva & Pav](https://codeforces.com/contest/1878/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1878/E%20-%20Iva%20%26%20Pav/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
@@ -471,6 +472,7 @@
 | 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
 | 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
@@ -744,6 +746,7 @@
 | 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.cpp) |
@@ -1011,6 +1014,7 @@
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
 | 1891C | [Smilo and Monsters](https://codeforces.com/contest/1891/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/1891/C%20-%20Smilo%20and%20Monsters/solution.cpp) |
