@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 346 | 31 |
+| 347 | 31 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (18)
+- [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (37)
 - [bitmasks](#bitmasks) (12)
 - [brute force](#brute-force) (68)
@@ -83,6 +83,7 @@
 | 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.cpp) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.cpp) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.cpp) |
+| 2277A | [Subset Selecting](https://codeforces.com/contest/2277/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/AyushAgrawal18/Codeforces/blob/HEAD/2277/A%20-%20Subset%20Selecting/solution.cpp) |
 
 ### binary search
 
